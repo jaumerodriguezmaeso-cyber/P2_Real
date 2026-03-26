@@ -10,6 +10,18 @@ public class LlistaAccessos implements InLlistaAccessos {
     public LlistaAccessos() {
         this.llistaAccessos = new ArrayList<>();
     }
+    public String llistarAccessos(boolean operatiu){
+        Iterator<Acces> it = this.llistaAccessos.iterator();
+        String s="";
+        while (it.hasNext()){
+            Acces acces = it.next();
+            if(acces.getEstat()==(operatiu)){
+                s+=acces.toString();
+            }
+        }
+        return s;
+    }
+
     public void afegirAcces(Acces acc){
         llistaAccessos.add(acc);
     }
@@ -29,6 +41,7 @@ public class LlistaAccessos implements InLlistaAccessos {
         }
         return s;
     }
+
     public void actualitzaEstatAccessos(){
         if(llistaAccessos.size()==0){
             throw new ExcepcioCamping("la llista esta buida");

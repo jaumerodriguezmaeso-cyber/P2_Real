@@ -1,11 +1,14 @@
 package prog2.model;
-public class CarreteraAsfalt extends AccesAsfalt{
-    public CarreteraAsfalt(String nom,double amplada){
-        super(nom,amplada);
+public class CarreteraAsfaltada extends AccesAsfalt{
+    private float pes;
+    public CarreteraAsfaltada(String nom,boolean accesibilitat,float amplada, float pes){
+        super(nom,amplada,accesibilitat);
+        this.pes=pes;
     }
     public boolean isAccessibilitat(){
         return true;
     }
+
     public String toString(){
         return "Carretera d'Asfalt - Nom: " + getNom() +
                 ", Amplada: " + getAmplada() + "m" +

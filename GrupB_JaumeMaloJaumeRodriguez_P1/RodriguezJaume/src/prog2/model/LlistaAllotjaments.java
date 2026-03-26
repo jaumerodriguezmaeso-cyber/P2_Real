@@ -26,7 +26,7 @@ public class LlistaAllotjaments implements InLlistaAllotjaments{
         Allotjament a;
         while(it.hasNext()){
             a = it.next();
-            if(a.getOperatiu().equals(estat)){
+            if(a.isOperatiu()==estat.equals("operatiu")){
                 s += a.toString()+"\n";
             }
 
@@ -40,7 +40,7 @@ public class LlistaAllotjaments implements InLlistaAllotjaments{
     public boolean containsAllotjamentOperatiu(){
         Iterator<Allotjament> it = llistaAllotjaments.iterator();
         while(it.hasNext()){
-            if(it.next().getEstat()){}
+            if(it.next().isOperatiu()){}
                 return true;
         }
         return false;

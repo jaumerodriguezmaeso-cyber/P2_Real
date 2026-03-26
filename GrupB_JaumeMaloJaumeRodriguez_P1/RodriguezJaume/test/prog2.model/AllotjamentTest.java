@@ -1,3 +1,4 @@
+
 package prog2.model;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -6,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class AllotjamentTestBase {
+class AllotjamentTest {
 
     private Allotjament allotjament;
 
@@ -21,8 +22,8 @@ class AllotjamentTestBase {
     void comprovarConstructor() {
         assertEquals("Allotjament Test", allotjament.getNom());
         assertEquals("ID001", allotjament.getId());
-        assertEquals(4, allotjament.getEstadaMinima(Allotjament.InAllotjament.Temp.ALTA));
-        assertEquals(2, allotjament.getEstadaMinima(Allotjament.InAllotjament.Temp.BAIXA));
+        assertEquals(4, allotjament.getEstadaMinima(InAllotjament.Temp.ALTA));
+        assertEquals(2, allotjament.getEstadaMinima(InAllotjament.Temp.BAIXA));
         assertEquals(true, allotjament.isOperatiu());
         assertEquals("100%", allotjament.getIluminacio());
     }

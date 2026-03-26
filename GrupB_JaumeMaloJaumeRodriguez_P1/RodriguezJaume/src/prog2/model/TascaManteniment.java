@@ -12,16 +12,19 @@ public class TascaManteniment implements InTascaManteniment {
     private TipusTascaManteniment tipus;
     private int numTasca;
     private int dies;
+    private String iluminacio;
 
-    public TascaManteniment(int num, String tipus, Allotjament allotjament, String data, int dies) {
-        this.num = num;
+    public TascaManteniment(int numTasca, TipusTascaManteniment tipus, Allotjament allotjament, String data, int dies) {
+        this.numTasca = numTasca;
         this.allotjament = allotjament;
         this.data = data;
-        this.iluminacioAllotjament = tipus;
+        this.tipus=tipus;
         this.dies=dies;
+        this.iluminacio="100%";
+
     }
     public int getNum() {
-        return this.num;
+        return this.numTasca;
     }
     public TascaManteniment.TipusTascaManteniment getTipus(){
         return this.tipus;
@@ -34,14 +37,14 @@ public class TascaManteniment implements InTascaManteniment {
     }
 
     public int getDies(){
-        return ;
+        return this.dies;
     }
 
     public void setData(String data_){
         this.data = data_;
     }
-    public void setNum(int num){
-        this.num = num;
+    public void setNum(int numTasca){
+        this.numTasca = numTasca;
     }
     public void setAllotjament(Allotjament allotjament){
         this.allotjament = allotjament;
@@ -55,23 +58,23 @@ public class TascaManteniment implements InTascaManteniment {
     public String getIluminacioAllotjament(){
         switch (this.tipus){
             case Reparacio:
-                iluminacioAllotjament="50%";
+                iluminacio="50%";
                 break;
             case Neteja:
-                iluminacioAllotjament="100%";
+                iluminacio="100%";
                 break;
             case Desinfeccio:
-                iluminacioAllotjament="0%";
+                iluminacio="0%";
                 break;
             case RevisioTecnica:
-                iluminacioAllotjament="50%";
+                iluminacio="50%";
                 break;
         }
-        return iluminacioAllotjament;
+        return iluminacio;
     }
-    //arreglar
+
     public String toString() {
-        return "Tasca #" + numTasca + " [" + tipus + "] en " + allotjament.getId() +
+        return "Tasca " + numTasca + " [" + tipus + "] en " + allotjament.getId() +
                 " data: " + data + " (durada: " + dies + " dies)";
     }
 }

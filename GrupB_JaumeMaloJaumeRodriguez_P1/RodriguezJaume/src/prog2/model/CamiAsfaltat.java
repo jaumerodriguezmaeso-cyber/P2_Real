@@ -1,7 +1,7 @@
 package prog2.model;
-public class CamiAsfalt extends AccesAsfalt{
-    public CamiAsfalt(String nom, double amplada_){
-        super(nom,amplada_);
+public class CamiAsfaltat extends AccesAsfalt{
+    public CamiAsfaltat(String nom,boolean accesibilitat,double amplada){
+        super(nom,amplada,accesibilitat);
     }
     public boolean isAccessibilitat(){
         return false;

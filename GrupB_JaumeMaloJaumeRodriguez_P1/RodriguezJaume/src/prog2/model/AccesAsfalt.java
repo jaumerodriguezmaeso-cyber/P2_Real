@@ -1,9 +1,9 @@
 package prog2.model;
 public abstract class AccesAsfalt extends Acces{
     private double amplada;
-    public AccesAsfalt(String nom, double amplada_){
+    public AccesAsfalt(String nom, double amplada_,boolean estat){
         this.amplada =amplada_;
-        super(nom);
+        super(nom,estat);
     }
 
     public double getAmplada() {

@@ -2,8 +2,8 @@ package prog2.model;
 public class CarreteraTerra extends AccesTerra{
 
 
-    public CarreteraTerra(String nom,double amplada){
-        super(nom,amplada);
+    public CarreteraTerra(String nom,boolean accesibilitat,float longitud,float amplada){
+        super(nom,longitud, accesibilitat);
     }
     public boolean isAccessibilitat(){
         return true;

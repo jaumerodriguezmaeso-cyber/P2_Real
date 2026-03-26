@@ -2,34 +2,38 @@ package prog2.model;
 
 public class Parcela extends Allotjament {
     //atributs
-    private double mida;
-    private boolean connexioElectrica;
+    private double metresQuadrats;
+    private boolean conexioElectrica;
+
     //constructor
-    public Parcela(String nom, String id,double mida, boolean connexioElectrica){
-        super(nom,id,4,2 );
-        this.mida=mida;
-        this.connexioElectrica=connexioElectrica;
-
-    }
-    //implementacio del metode
-    public boolean correcteFuncionament(){
-
-        return this.connexioElectrica;
+    public Parcela(String nom, String id,boolean conexioElectrica,String iluminacio,double metresQuadrats, boolean estat){
+        super(nom,id );
+        this.metresQuadrats=metresQuadrats;
+        this.conexioElectrica=conexioElectrica;
 
 
     }
+
     //getters i setters
-    public double getMida() {
-        return mida;
+    public double getMetresQuadrats() {
+        return metresQuadrats;
     }
-    public void setMida(double mida) {
-        this.mida = mida;
+    public void setMetresQuadrats(double metresQuadrats) {
+        this.metresQuadrats = metresQuadrats;
     }
-    public boolean isConnexioElectrica() {
-        return connexioElectrica;
+    public boolean getConexioElextrica(){
+        return conexioElectrica;
     }
-    public void setConnexioElectrica(boolean connexioElectrica) {
-        this.connexioElectrica = connexioElectrica;
+    public void setConexioElextrica(boolean conexioElectrica){
+        this.conexioElectrica = conexioElectrica;
+    }
+
+
+    public boolean correcteFuncionament(){
+        return this.isOperatiu();
+    }
+    public String toString(){
+        return super.toString()+" MetresQuadrats: "+metresQuadrats;
     }
 
 }

@@ -7,8 +7,9 @@ import java.util.Iterator;
 
 public class LlistaTasquesManteniment implements InLlistaTasquesManteniment{
     private ArrayList<TascaManteniment> tasquesManteniment;
+    private TascaManteniment.TipusTascaManteniment tipusTascaManteniment;
     public void afegirTascaManteniment(int num, String tipus, Allotjament allotjament, String data, int dies){
-        TascaManteniment tasca=new TascaManteniment(num,tipus,allotjament,data,dies);
+        TascaManteniment tasca=new TascaManteniment(num,tipusTascaManteniment,allotjament,data,dies);
         tasquesManteniment.add(tasca);
     }
     public void completarTascaManteniment(TascaManteniment tasca){
@@ -26,6 +27,9 @@ public class LlistaTasquesManteniment implements InLlistaTasquesManteniment{
         while(it.hasNext()){
             TascaManteniment t=it.next();
             s+=t.toString()+"\n";
+        }
+        if(s.equals("")){
+            throw new ExcepcioCamping("vuit");
         }
         return s;
     }

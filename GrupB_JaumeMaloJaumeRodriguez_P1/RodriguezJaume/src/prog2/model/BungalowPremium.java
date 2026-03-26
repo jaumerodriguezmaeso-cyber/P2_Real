@@ -5,9 +5,9 @@ public class BungalowPremium extends Bungalow {
     private String codiWifi;
     private boolean serveixExtra;
     //constructor
-    public BungalowPremium(String nom, String id, String mida, int numHabitacions, int placesPersones,
+    public BungalowPremium(String nom, String id,boolean estat, String iluminacio, float mida, int numHabitacions, int placesPersones,
     int placesParquing, boolean terrassa, boolean tv, boolean aireFred, boolean serveisExtra, String codiWifi){
-        super(nom, id, 7, 4, mida, numHabitacions, placesPersones,
+        super(nom, id, estat, iluminacio, mida, numHabitacions, placesPersones,
                 placesParquing, terrassa, tv, aireFred);
         this.serveixExtra=serveisExtra;
         this.codiWifi=codiWifi;
@@ -16,7 +16,7 @@ public class BungalowPremium extends Bungalow {
     //implementacio del metode
     public boolean correcteFuncionament(){
 
-        return super.correcteFuncionament() && codiWifi.length()>=8 && codiWifi.length()<=16;
+        return this.isOperatiu();
 
     }
 

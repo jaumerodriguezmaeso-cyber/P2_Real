@@ -1,7 +1,7 @@
 package prog2.model;
 public class CamiTerra extends AccesTerra{
-    public CamiTerra(String nom, double metresQuadrats){
-        super(nom,metresQuadrats);
+    public CamiTerra(String nom,boolean accesibilitat, double metresQuadrats){
+        super(nom,metresQuadrats,true);
     }
     public boolean isAccessibilitat(){
         return false;
