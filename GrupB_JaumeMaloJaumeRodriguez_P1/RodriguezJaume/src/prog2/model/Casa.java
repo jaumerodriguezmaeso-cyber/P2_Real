@@ -4,9 +4,9 @@ public abstract class Casa extends Allotjament{
     //atributs de la classe Casa, en private.
     private int numHabitacions;
     //constructor
-    public Casa(String nom,String id,int numHabitacions){
+    public Casa(String nom,String id,int numHabitacions,long estadaMinimaAlta,long estadaMinimaBaixa){
         //com que els hereda de la classe allotjament, utilitzem super a referirnos a que son heretats de la classe anterior
-        super(nom, id);
+        super(nom, id,estadaMinimaAlta,estadaMinimaBaixa);
         this.numHabitacions = numHabitacions;
     }
     public String toString(){

@@ -9,7 +9,7 @@ public class Bungalow extends Casa {
     //constructor
     public Bungalow(String nom, String id, boolean estat, String iluminacio, float mida, int numHabitacions, int placesPersones,
                     int placesParquing, boolean terrassa, boolean tv, boolean aire){
-        super(nom, id, numHabitacions);
+        super(nom, id, numHabitacions,7,4);
         this.placesParquing=placesParquing;
         this.terrassa=terrassa;
         this.tv=tv;

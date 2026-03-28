@@ -9,11 +9,13 @@ public abstract class Allotjament implements InAllotjament {
     private String illuminacio;
 
 
-    public Allotjament(String nom, String id){
+    public Allotjament(String nom, String id,long estadaMinimaAlta,long estadaMinimaBaixa){
         this.nom=nom;
         this.id = id;
         this.operatiu=true;
         this.illuminacio="100%";
+        this.estadaMinimaAlta=estadaMinimaAlta;
+        this.estadaMinimaBaixa=estadaMinimaBaixa;
 
     }
     public boolean isOperatiu(){

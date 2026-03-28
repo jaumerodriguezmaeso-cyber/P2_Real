@@ -12,7 +12,7 @@ public class MobilHome extends Casa {
     public MobilHome(String nom, String id, boolean estat, String iluminacio,
                      float mida, int numHabitacions, int placesPersones,
                      boolean terrassaBarbacoa){
-        super(nom, id, numHabitacions);
+        super(nom, id, numHabitacions,5,3);
         this.estadaMinimaAlta = estadaMinimaAlta;
         this.estadaMinimaBaixa = estadaMinimaBaixa;
         this.mida = mida;
