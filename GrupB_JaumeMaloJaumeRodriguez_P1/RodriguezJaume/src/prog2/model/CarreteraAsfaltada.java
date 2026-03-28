@@ -6,7 +6,7 @@ public class CarreteraAsfaltada extends AccesAsfalt{
         this.pes=pes;
     }
     public boolean isAccessibilitat(){
-        return true;
+        return super.isAccessibilitat();
     }
 
     public String toString(){

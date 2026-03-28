@@ -10,4 +10,11 @@ public abstract class AccesTerra extends Acces {
         return this.metresQuadrats;
     }
 
+    @Override
+    public boolean isAccessibilitat() {
+        return super.isAccessibilitat();
+    }
+    public String toString() {
+        return super.toString()+" metresQuadrats: "+this.metresQuadrats;
+    }
 }

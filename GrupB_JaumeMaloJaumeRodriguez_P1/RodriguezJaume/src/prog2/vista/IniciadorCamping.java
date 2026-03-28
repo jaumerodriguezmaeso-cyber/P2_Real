@@ -2,12 +2,15 @@ package prog2.vista;
 
 import prog2.model.VistaCamping;
 
+import java.util.ArrayList;
+import java.util.Scanner;
 /**
  *
  * @author lauraigual
  */
 public class IniciadorCamping {
-    
+
+    private VistaCamping vistaCamping;
     /**
      * @param args the command line arguments
      */
@@ -21,4 +24,5 @@ public class IniciadorCamping {
         // Inicialitzem l'execució de la vista
         vistaCamping.gestioCamping();
     }
+
 }

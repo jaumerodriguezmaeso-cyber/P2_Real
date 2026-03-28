@@ -4,6 +4,7 @@ package prog2.model;
 /**
  * Interfície que defineix les operacions bàsiques d'un accés.
  */
+
 public interface InAcces {
     
     /**
@@ -39,6 +40,7 @@ public interface InAcces {
      * Retorna l'estat de l'accés (obert o tancat)
      * @return
      */
+
     public boolean getEstat();
 
     /**

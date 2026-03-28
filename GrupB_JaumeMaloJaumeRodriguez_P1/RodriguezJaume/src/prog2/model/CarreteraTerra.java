@@ -6,7 +6,7 @@ public class CarreteraTerra extends AccesTerra{
         super(nom,longitud, accesibilitat);
     }
     public boolean isAccessibilitat(){
-        return true;
+        return super.isAccessibilitat();
     }
     public String toString(){
         return "Carretera de terra - Nom: " + getNom() +

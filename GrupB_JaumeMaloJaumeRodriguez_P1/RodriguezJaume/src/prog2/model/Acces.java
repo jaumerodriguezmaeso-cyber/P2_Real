@@ -24,12 +24,14 @@ public abstract class Acces implements InAcces {
     public void obrirAcces(){
         accesibilitat=true;
     }
-    public abstract boolean isAccessibilitat();
+    public boolean isAccessibilitat(){
+        return this.accesibilitat;
+    }
     public String getNom(){
         return this.nom;
     }
     public boolean getEstat(){
-        return this.accesibilitat;
+        return this.estat.equals("obert");
     }
     public LlistaAllotjaments getAAllotjaments(){
         return llistaAllotjaments;

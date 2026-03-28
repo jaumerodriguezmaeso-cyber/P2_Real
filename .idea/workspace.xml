@@ -2,36 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2763e3f2-56b9-4855-bf7a-caddc2bf13e3" name="Changes" comment="avanze">
-      <change afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/VistaCamping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/GrupB_JaumeMaloJaumeRodriguez_P1 (2).iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GrupB_JaumeMaloJaumeRodriguez_P1 (2).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Acces.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Acces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/AccesAsfalt.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/AccesAsfalt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/AccesTerra.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/AccesTerra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Allotjament.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Allotjament.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Bungalow.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Bungalow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/BungalowPremium.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/BungalowPremium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/CamiAsfalt.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/CamiAsfaltat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/CamiAsfaltat.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/CamiAsfaltat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/CamiTerra.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/CamiTerra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Camping.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Camping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/CarreteraAsfalt.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/CarreteraAsfaltada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/CarreteraAsfaltada.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/CarreteraAsfaltada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/CarreteraTerra.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/CarreteraTerra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Casa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Glamping.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Glamping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/LlistaAccessos.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/LlistaAccessos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/LlistaAllotjaments.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/LlistaAllotjaments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/LlistaTasquesManteniment.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/LlistaTasquesManteniment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/MobilHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/MobilHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Parcela.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/Parcela.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/TascaManteniment.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/TascaManteniment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/vista/ExcepcioReserva.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/InAcces.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/InAcces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/VistaCamping.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/model/VistaCamping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/vista/IniciadorCamping.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/src/prog2/vista/IniciadorCamping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/test/prog2.model/AccesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/test/prog2.model/AccesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/test/prog2.model/AllotjamentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/test/prog2.model/AllotjamentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/test/prog2.model/TascaMantenimentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/test/prog2.model/TascaMantenimentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GrupB_JaumeMaloJaumeRodriguez_P1/RodriguezJaume/test/test.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +27,7 @@
         <option value="Exception" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -70,30 +54,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ExempleMenu.executor": "Run",
-    "Application.IniciadorCamping.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.AccesTest.executor": "Run",
-    "JUnit.AccesTestBase.executor": "Run",
-    "JUnit.AllotjamentTest.executor": "Run",
-    "JUnit.AllotjamentTestBase.executor": "Run",
-    "JUnit.TascaMantenimentTest.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Jaume Rodriguez/Desktop/GrupB_JaumeMaloJaumeRodriguez_P1 (2)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ExempleMenu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IniciadorCamping.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JUnit.AccesTerraTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccesTest.comprovarConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccesTestBase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AllotjamentTest.comprovarConstructor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AllotjamentTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AllotjamentTestBase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TascaMantenimentTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jaume Rodriguez/Desktop/GrupB_JaumeMaloJaumeRodriguez_P1 (2)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jaume Rodriguez\Desktop\GrupB_JaumeMaloJaumeRodriguez_P1 (2)\GrupB_JaumeMaloJaumeRodriguez_P1\RodriguezJaume\src\prog2\vista" />
@@ -102,6 +95,9 @@
       <recent name="C:\Users\Jaume Rodriguez\Desktop\GrupB_JaumeMaloJaumeRodriguez_P1 (2)\GrupB_JaumeMaloJaumeRodriguez_P1\RodriguezJaume\src\prog2\model" />
       <recent name="C:\Users\Jaume Rodriguez\Desktop\GrupB_JaumeMaloJaumeRodriguez_P1 (2)\GrupB_JaumeMaloJaumeRodriguez_P1\RodriguezJaume\test\prog2.model" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="prog2.model" />
     </key>
@@ -109,8 +105,11 @@
       <recent name="prog2.model" />
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="prog2.model" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccesTest">
+  <component name="RunManager">
     <configuration name="ExempleMenu" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="prog2.vista.ExempleMenu" />
       <module name="GrupB_JaumeMaloJaumeRodriguez_P1 (2)" />
@@ -139,9 +138,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccesTest.comprovarConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GrupB_JaumeMaloJaumeRodriguez_P1 (2)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prog2.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="prog2.model" />
+      <option name="MAIN_CLASS_NAME" value="prog2.model.AccesTest" />
+      <option name="METHOD_NAME" value="comprovarConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllotjamentTest.comprovarConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GrupB_JaumeMaloJaumeRodriguez_P1 (2)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prog2.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="prog2.model" />
+      <option name="MAIN_CLASS_NAME" value="prog2.model.AllotjamentTest" />
+      <option name="METHOD_NAME" value="comprovarConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccesTest.comprovarConstructor" />
         <item itemvalue="JUnit.AccesTest" />
+        <item itemvalue="JUnit.AllotjamentTest.comprovarConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -161,11 +194,40 @@
       <option name="project" value="LOCAL" />
       <updated>1774180063437</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="avanze">
+      <option name="closed" value="true" />
+      <created>1774528082027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774528082027</updated>
+    </task>
+    <task id="LOCAL-00003" summary="avanze">
+      <option name="closed" value="true" />
+      <created>1774528146265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774528146265</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="avanze" />
     <option name="LAST_COMMIT_MESSAGE" value="avanze" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

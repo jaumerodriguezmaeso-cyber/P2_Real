@@ -12,5 +12,8 @@ public abstract class AccesAsfalt extends Acces{
     public void setAmplada(double amplada) {
         this.amplada = amplada;
     }
+    public String toString(){
+        return super.toString()+"amplada: "+this.amplada;
+    }
 
 }
