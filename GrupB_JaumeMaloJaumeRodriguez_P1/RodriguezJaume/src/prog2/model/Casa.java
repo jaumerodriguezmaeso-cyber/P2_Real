@@ -1,9 +1,15 @@
 package prog2.model;
-//classe casa, subclasse de allotjament, abstracte ja que es una superclasse de les classes a implementar.
+/**
+ * @author Jaume Rodriguez i Jaume Malo
+ *
+ *Classe abtracta que hereda de Allotjament i gestiona el numero d'habitacions de l'estancia.
+ *
+ */
+
 public abstract class Casa extends Allotjament{
-    //atributs de la classe Casa, en private.
+
     private int numHabitacions;
-    //constructor
+
     public Casa(String nom,String id,int numHabitacions,long estadaMinimaAlta,long estadaMinimaBaixa){
         //com que els hereda de la classe allotjament, utilitzem super a referirnos a que son heretats de la classe anterior
         super(nom, id,estadaMinimaAlta,estadaMinimaBaixa);

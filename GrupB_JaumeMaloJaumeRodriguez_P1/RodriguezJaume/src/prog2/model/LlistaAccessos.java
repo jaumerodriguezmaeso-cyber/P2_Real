@@ -4,12 +4,28 @@ import prog2.vista.ExcepcioCamping;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-
+/**
+ * @authors Jaume Rodriguez i Jaume Malo
+ *
+ *Classe abstracta que implementa una llista d'accessos per a arribar a un allotjament dins d'un camping
+ *Aquesta classe gestiona una llista de els allotjaments als que es pot arribar desde cada acces.
+ *
+ */
 public class LlistaAccessos implements InLlistaAccessos {
     private ArrayList<Acces> llistaAccessos;
+
+    /**
+     * Constructor de la llista de accessos
+     */
     public LlistaAccessos() {
         this.llistaAccessos = new ArrayList<>();
     }
+
+    /**
+     * metode per a rebre la infmracio de tots els accessos amb un estat concret
+     * @param operatiu boolean
+     * @return String d'accessos.
+     */
     public String llistarAccessos(boolean operatiu){
         Iterator<Acces> it = this.llistaAccessos.iterator();
         String s="";
@@ -22,31 +38,30 @@ public class LlistaAccessos implements InLlistaAccessos {
         return s;
     }
 
+    /**
+     * metode per a afegir un acces a la llista
+     * @param acc Objecte de tipus Acces.
+     */
     public void afegirAcces(Acces acc){
         llistaAccessos.add(acc);
     }
+
+    /**
+     * metode per a buidar la llista
+     */
     public void buidar(){
         llistaAccessos.clear();
     }
-    public String llistarAccesos(boolean estat){
-        Iterator<Acces> it = llistaAccessos.iterator();
-        String s = "";
-        Acces a;
-        while(it.hasNext()){
-            a = it.next();
-            if(a.getEstat()==estat) {
-                s += a.toString() + "\n";
-            }
 
-        }
-        return s;
-    }
+    /**
+     * Metode per a actualitzar els accessos.
+     */
 
     public void actualitzaEstatAccessos(){
         if(llistaAccessos.size()==0){
             throw new ExcepcioCamping("la llista esta buida");
         }
-        String s=";";
+
         Iterator<Acces> it=llistaAccessos.iterator();
         while(it.hasNext()){
             Acces acc=it.next();
@@ -58,24 +73,11 @@ public class LlistaAccessos implements InLlistaAccessos {
             }
         }
     }
-    public String llistarAccessos(String estat){
-        if (llistaAccessos.isEmpty()) {
-            throw new ExcepcioCamping("Error: La llista d'accessos està buida.");
-        }
-        boolean estatCerca=estat.equals("Obert");
-        String s = "";
-        Iterator<Acces> it = llistaAccessos.iterator();
-        while (it.hasNext()) {
-            Acces acc = it.next();
-            if(estatCerca==acc.isAccessibilitat())
-            s += it.next().toString() + "\n";
-        }
-        if(s.isEmpty()){
-            throw  new ExcepcioCamping("no hi han accesos amb aquest estat");
-        }
-        return s;
 
-    }
+    /**
+     * metode per a calcular le nuumero de accesos als que no es pot accedir
+     * @return numero d'accessos no accesibles
+     */
     public int calculaAccessosNoAccessibles(){
         Iterator<Acces> it = llistaAccessos.iterator();
         int contador=0;
@@ -89,6 +91,11 @@ public class LlistaAccessos implements InLlistaAccessos {
         }
         return contador;
     }
+
+    /**
+     * metode per a calcular els metres de terra
+     * @return els metres de terra
+     */
     public float calculaMetresTerra(){
         Iterator<Acces> it = llistaAccessos.iterator();
         float metres=0;
@@ -97,7 +104,11 @@ public class LlistaAccessos implements InLlistaAccessos {
 
             a = it.next();
             if(a instanceof AccesTerra){
-                metres+=((AccesTerra) a).getMetresQuadrats();
+                if(a instanceof CarreteraTerra){
+                    metres+=((CarreteraTerra) a).getMetresQuadrats();
+                }
+
+
             }
 
         }

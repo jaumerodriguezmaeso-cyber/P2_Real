@@ -1,5 +1,10 @@
 package prog2.model;
-
+/**
+ * @author Jaume Rodriguez i Jaume Malo
+ *
+ *Classe concreta que hereda de Casa i implementa un Mobil-Home, un tipus de Allotjament que compte amb terrassa per a barbacoa.
+ *Aquesta classe gestiona el correcte funcionament del bungalow i els seus atributs
+ */
 public class MobilHome extends Casa {
     //atribut exclusiu
     private boolean terrassaBarbacoa;

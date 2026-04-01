@@ -1,12 +1,24 @@
 package prog2.model;
-
+/**
+ * @author Jaume Rodriguez i Jaume Malo
+ *
+ *Classe concreta que implementa les diferents tasques de manetniment, cadascuna amb les seves diferencies en els atributs
+ *
+ */
 public class TascaManteniment implements InTascaManteniment {
+    /**
+     * enum per a el nom de les tasques
+     */
     public static enum TipusTascaManteniment {
         Reparacio,
         Neteja,
         RevisioTecnica,
         Desinfeccio
     }
+
+    /**
+     * atributs de la classe Tasca manteniment
+     */
     private String data;
     private Allotjament allotjament;
     private TipusTascaManteniment tipus;
@@ -14,6 +26,14 @@ public class TascaManteniment implements InTascaManteniment {
     private int dies;
     private String iluminacio;
 
+    /**
+     * constructor de l'objecte de la classe tascaManteniment
+     * @param numTasca
+     * @param tipus
+     * @param allotjament
+     * @param data
+     * @param dies
+     */
     public TascaManteniment(int numTasca, TipusTascaManteniment tipus, Allotjament allotjament, String data, int dies) {
         this.numTasca = numTasca;
         this.allotjament = allotjament;
@@ -23,6 +43,11 @@ public class TascaManteniment implements InTascaManteniment {
         this.iluminacio="100%";
 
     }
+
+    /**
+     * getters i setters dels atributs de tasca manteniment
+     *
+     */
     public int getNum() {
         return this.numTasca;
     }
@@ -73,6 +98,10 @@ public class TascaManteniment implements InTascaManteniment {
         return iluminacio;
     }
 
+    /**
+     * metode per a rebre la informacio de la tasca de manteniment.
+     * @return informacio sobre la tasca de manteniment.
+     */
     public String toString() {
         return "Tasca " + numTasca + " [" + tipus + "] en " + allotjament.getId() +
                 " data: " + data + " (durada: " + dies + " dies)";

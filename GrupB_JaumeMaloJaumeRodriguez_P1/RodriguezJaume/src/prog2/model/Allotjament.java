@@ -1,5 +1,11 @@
 package prog2.model;
-
+/**
+ * @author Jaume Rodriguez i Jaume Malo
+ *
+ *Classe abstracta que implementa els Allotjaments, llocs que el client reserva per a passar la seva estança.
+ *Aquesta classe gestiona les operacions de obrir i tancar els allotjaments.
+ *
+ */
 public abstract class Allotjament implements InAllotjament {
     private String nom;
     private String id;

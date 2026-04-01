@@ -1,5 +1,10 @@
 package prog2.model;
-
+/**
+ * @author Jaume Rodriguez i Jaume Malo
+ *
+ *Classe concreta que hereda de Casa i implementa un Glamping, un tipus de Allotjament que compte amb una casa per a mascotes i es d'un tipus de material especific.
+ *Aquesta classe gestiona el correcte funcionament del bungalow i els seus atributs
+ */
 public class Glamping extends Casa {
     //atributs
     private String material;

@@ -2,9 +2,16 @@ package prog2.model;
 import prog2.vista.ExcepcioCamping;
 
 import java.io.*;
-
+/**
+ * @author Jaume Rodriguez i Jaume Malo
+ *
+ *Classe concreta que implementa un camping i gestiona tot els seus atributs i serveis, tambe compte amb la
+ * facilitat de poder guardar el camping en un fitxer i recuperarlo en cualsevol moment.
+ */
 public class Camping implements InCamping, Serializable {
-    //atributs
+    /**
+     * atributs de la classe Camping
+     */
     private String nom;
 
     private LlistaAllotjaments llistaAllotjaments;
@@ -12,7 +19,10 @@ public class Camping implements InCamping, Serializable {
     private LlistaTasquesManteniment llistaTasquesManteniment;
 
 
-    //constructor
+    /**
+     * constructor de la classe camping
+     * @param nom
+     */
     public Camping(String nom){
         this.nom=nom;
         this.llistaAllotjaments = new LlistaAllotjaments();
@@ -21,7 +31,11 @@ public class Camping implements InCamping, Serializable {
         inicialitzaDadesCamping();
 
     }
-    //getters i setters per a accedir a els atributs
+
+    /**
+     * getters i setters dels atributs de la classe camping
+     *
+     */
     public String getNomCamping(){
         return nom;
     }
@@ -29,11 +43,23 @@ public class Camping implements InCamping, Serializable {
         return llistaAllotjaments.llistarAllotjaments(estat);
     }
     public String llistarAccessos(String infoEstat){
-       return llistaAccessos.llistarAccessos(infoEstat);
+        if(infoEstat.equals("obert")){
+            return llistaAccessos.llistarAccessos(true);
+        }
+       return llistaAccessos.llistarAccessos(false);
     }
     public String llistarTasquesManteniment(){
         return llistaTasquesManteniment.llistarTasquesManteniment();
     }
+
+    /**
+     * classe per a afegir una tasca de manteniment en un allotjament
+     * @param num Número identificador de la tasca.
+     * @param tipus Tipus de tasca (en format string)
+     * @param idAllotjament Identificador de l'allotjament afectat.
+     * @param data Data en què s'ha registrat la tasca.
+     * @param dies Número esperat de dies per completar la tasca
+     */
     public void afegirTascaManteniment(int num, String tipus, String idAllotjament, String data, int dies){
         Allotjament allotjament = llistaAllotjaments.getAllotjament(idAllotjament);
         TascaManteniment.TipusTascaManteniment tipusTascaManteniment;
@@ -58,16 +84,35 @@ public class Camping implements InCamping, Serializable {
         allotjament.tancarAllotjament(nova);
     }
 
+    /**
+     * metode per a eliminar una tasca de manteniment de l'allotjament
+     * @param num Número identificador de la tasca a completar.
+     */
     public void completarTascaManteniment(int num){
         llistaTasquesManteniment.completarTascaManteniment(llistaTasquesManteniment.getTascaManteniment(num));
 
     }
+
+    /**
+     * metode per a calcular els accessos no accesibles
+     * @return accessos no accesibles
+     */
     public int calculaAccessosNoAccessibles(){
         return llistaAccessos.calculaAccessosNoAccessibles();
     }
+
+    /**
+     * metode per a calcular els metresquadrats de terra
+     * @return metres de terra
+     */
     public float calculaMetresTerra(){
         return llistaAccessos.calculaMetresTerra();
     }
+
+    /**
+     * metode per a guadrar el camping en un fitxer.
+     * @param camiDesti Ruta del fitxer de destinació.
+     */
     public void save(String camiDesti){
         FileOutputStream fout=null;
         ObjectOutputStream oos=null;
@@ -91,6 +136,13 @@ public class Camping implements InCamping, Serializable {
             }
         }
     }
+
+    /**
+     * metode per a rebre un camping llegit per fitxer
+     * @param camiOrigen
+     * @return camping
+     * @throws ExcepcioCamping
+     */
     public static Camping load(String camiOrigen) throws ExcepcioCamping {
         FileInputStream fin=null;
         ObjectInputStream ois=null;
@@ -116,6 +168,10 @@ public class Camping implements InCamping, Serializable {
         }
         return camping;
     }
+
+    /**
+     * metode per a inicialitzar un nou camping.
+     */
     public void inicialitzaDadesCamping() {
 
         llistaAccessos.buidar();
