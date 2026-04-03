@@ -7,6 +7,7 @@ package prog2.model;
  *
  */
 public class CamiTerra extends AccesTerra{
+
     /**
      * Constructor de la classe Cami Terra.
      * @param nom, rep el nom de l'Acces
@@ -28,6 +29,6 @@ public class CamiTerra extends AccesTerra{
      * @return la informacio de l'acces
      */
     public String toString() {
-        return "Cami de Terra - Nom: " + getNom()  + "m2, Obert: " + getEstat();
+        return super.toString();
     }
 }

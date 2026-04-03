@@ -79,6 +79,20 @@ public class TascaManteniment implements InTascaManteniment {
     }
     public void setTipus(TipusTascaManteniment tipus_){
         this.tipus = tipus_;
+        switch (this.tipus){
+            case Reparacio:
+                iluminacio="50%";
+                break;
+            case Neteja:
+                iluminacio="100%";
+                break;
+            case Desinfeccio:
+                iluminacio="0%";
+                break;
+            case RevisioTecnica:
+                iluminacio="50%";
+                break;
+        }
     }
     public String getIluminacioAllotjament(){
         switch (this.tipus){

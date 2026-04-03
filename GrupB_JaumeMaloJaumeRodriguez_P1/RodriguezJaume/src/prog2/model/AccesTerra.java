@@ -6,20 +6,32 @@ package prog2.model;
  * Aquesta classe especifica els metres quadrats de l'acces.
  */
 public abstract class AccesTerra extends Acces {
-    private double metresquadrats;
+    private float longitud;
     /**
      * Constructor de la classe AccesTerra.
      * @param nom, rep el nom de l'Acces
-     * @param metresQuadrats, rep la mesura de l'acces
+     * @param longitud, rep la mesura de l'acces
      * @param accesibilitat, rep l'estat
      */
-    public AccesTerra(String nom, double metresQuadrats, boolean accesibilitat) {
-        this.metresquadrats = metresQuadrats;
+    public AccesTerra(String nom, float longitud, boolean accesibilitat) {
+        this.longitud = longitud;
         super(nom,accesibilitat);
     }
 
-    public double metresQuadrats() {
-        return this.metresquadrats;
+    /**
+     * getter de la longitud
+     * @return longitud
+     */
+    public double getLongitud() {
+        return this.longitud;
+    }
+
+    /**
+     * setter de la longitud
+     * @param longitud
+     */
+    public void setLongitud(float longitud) {
+        this.longitud = longitud;
     }
     /**
      * metode per a accedir a la accesibilitat de l'acces
@@ -34,6 +46,6 @@ public abstract class AccesTerra extends Acces {
      * @return la informacio de l'acces
      */
     public String toString() {
-        return super.toString();
+        return super.toString()+"longitud: "+this.longitud;
     }
 }

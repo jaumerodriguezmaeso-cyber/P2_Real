@@ -37,7 +37,7 @@ public abstract class Acces implements InAcces {
      * getters i setters.
      */
     public void tancarAcces(){
-        estat="no obert";
+        estat="tancat";
     }
     public void obrirAcces(){
         estat="obert";
@@ -66,6 +66,10 @@ public abstract class Acces implements InAcces {
         }
         llistaAllotjaments.afegirAllotjament(allotjament);
     }
+    public String toString(){
+        return "nom: "+nom+" accesibilitat: "+accesibilitat+" estat: "+estat;
+    }
+
 
 
 }

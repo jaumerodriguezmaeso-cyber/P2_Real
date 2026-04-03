@@ -46,10 +46,7 @@ public class CarreteraAsfaltada extends AccesAsfalt{
      * @return la informacio de l'acces
      */
     public String toString(){
-        return "Carretera d'Asfalt - Nom: " + getNom() +
-                ", Amplada: " + getAmplada() + "m" +
-                ", Estat: " + (getEstat() ? "Obert" : "Tancat") +
-                ", Accessibilitat: " + (isAccessibilitat() ? "Si" : "No");
+        return super.toString()+"pes: "+pes;
     }
 
 }

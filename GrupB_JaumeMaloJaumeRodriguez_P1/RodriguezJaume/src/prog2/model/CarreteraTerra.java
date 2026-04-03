@@ -43,9 +43,6 @@ public class CarreteraTerra extends AccesTerra{
      * @return la informacio de l'acces
      */
     public String toString(){
-        return "Carretera de terra - Nom: " + getNom() +
-                ", metres quadrats: " + getMetresQuadrats() + "m" +
-                ", Estat: " + (getEstat() ? "Obert" : "Tancat") +
-                ", Accessibilitat: " + (isAccessibilitat() ? "Si" : "No");
+        return super.toString() + "metresquadrats=" + metresquadrats;
     }
 }

@@ -28,7 +28,7 @@ public class CamiAsfaltat extends AccesAsfalt{
      * @return la informacio de l'acces
      */
     public String toString() {
-        return "Cami d'Asfalt - Nom: " + getNom() + ", Sup: " + getAmplada() + "m2, Obert: " + getEstat();
+        return super.toString();
     }
 
 }
